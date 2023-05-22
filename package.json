@@ -3,17 +3,26 @@
   "displayName": "buttonzi",
   "description": "This extension will convert package.json to clickable buttons",
   "version": "0.0.6",
+  "publisher": "Payam Khaninejad",
   "engines": {
     "vscode": "^1.78.0"
   },
+  "icon": "art/icon.png",
+  "license": "MIT",
   "categories": [
     "Other"
   ],
   "repository": {
+    "type": "git",
     "url": "https://github.com/khaninejad/buttonzi"
   },
   "activationEvents": [
     "onStartup"
+  ],
+  "keywords": [
+    "package.json",
+    "commands",
+    "command to button"
   ],
   "main": "./dist/extension.js",
   "contributes": {

@@ -1,15 +1,18 @@
 
-This extension will convert your commands into buttons
+This extension will convert your package.json commands into statusbar buttons
 
+## Getting Start
+
+Run "Run ButtonZi" command on Command Pallet.
+
+The commends will be appeared on status bar.
 
 
 ## Release Notes
 
-First version
+### 0.0.6
 
-### 1.0.0
-
-Initial release of ...
+Initial dev version
 
 
 ---
