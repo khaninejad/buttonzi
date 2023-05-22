@@ -1,8 +1,8 @@
 {
   "name": "buttonzi",
   "displayName": "buttonzi",
-  "description": "this extension will convert package.json to clickable buttons ",
-  "version": "0.0.2",
+  "description": "This extension will convert package.json to clickable buttons",
+  "version": "0.0.6",
   "engines": {
     "vscode": "^1.78.0"
   },
@@ -12,13 +12,15 @@
   "repository": {
     "url": "https://github.com/khaninejad/buttonzi"
   },
-  "activationEvents": [],
+  "activationEvents": [
+    "onStartup"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "buttonzi.helloWorld",
-        "title": "Hello World"
+        "command": "buttonzi.runButtonZi",
+        "title": "Run ButtonZi"
       }
     ]
   },
